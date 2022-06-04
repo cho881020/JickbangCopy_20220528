@@ -15,7 +15,12 @@ class RoomData(
 
         }
         else {
-            return  "%,d".format( this.price )
+
+            val uk = this.price / 10000
+
+            val rest = this.price % 10000
+
+            return  "%d억%,d".format( uk, rest )
         }
     }
 
