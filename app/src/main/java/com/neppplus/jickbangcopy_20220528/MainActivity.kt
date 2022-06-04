@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     val mRoomList = ArrayList<RoomData>()
 
+//    어댑터 변수만 생성 => 대입은 나중에.
     lateinit var mAdapter : RoomAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
