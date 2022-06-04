@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
         
         mAdapter = RoomAdapter( this, R.layout.room_list_item, mRoomList )
 
+        
+//        어댑터 / 리스트뷰 연결
         roomListView.adapter = mAdapter
 
 
