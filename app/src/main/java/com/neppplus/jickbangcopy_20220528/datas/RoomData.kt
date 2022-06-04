@@ -1,11 +1,13 @@
 package com.neppplus.jickbangcopy_20220528.datas
 
+import java.io.Serializable
+
 class RoomData(
     val price: Int,
     val address: String,
     val floor: Int,
     val description: String,
-) {
+) : Serializable {
 
     fun getFormattedPrice() : String {
 
